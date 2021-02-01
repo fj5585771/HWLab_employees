@@ -20,6 +20,6 @@ public class DatabaseAdminTest {
 
     @Test
     public void canPayBonus(){
-        assertEquals(28749, databaseAdmin.payBonus(), 0.01);
+        assertEquals(28749, databaseAdmin.payBonus(), 0.1);
     }
 }

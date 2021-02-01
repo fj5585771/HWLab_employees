@@ -11,7 +11,7 @@ public class ManagerTest {
 
     @Before
     public void setUp(){
-        manager = new Manager("Colon",  "JX295928A", "Management");
+        manager = new Manager("Colon",  "JX295928A", 50000, "Marketing");
     }
 
     @Test

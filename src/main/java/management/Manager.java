@@ -6,8 +6,8 @@ public class Manager extends Employee {
 
     private String depName;
 
-    public Manager(String name, String niNumber, String depName){
-        super(name, niNumber, 50000);
+    public Manager(String name, String niNumber, double salary, String depName){
+        super(name, niNumber, salary);
         this.depName = depName;
     }
 
